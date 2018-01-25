@@ -2,6 +2,7 @@ package imastudio.id.co.androidwidget;
 
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -65,7 +66,16 @@ public class MainActivity extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent a1 = new Intent(getApplicationContext(), ActivityDialogPrompt.class);
+                startActivity(a1);
+            }
+        });
 
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent a1 = new Intent(getApplicationContext(), ActivityCustomAlertDialog.class);
+                startActivity(a1);
             }
         });
     }

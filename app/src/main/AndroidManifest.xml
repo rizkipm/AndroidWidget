@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ActivityDialogPrompt"></activity>
+        <activity android:name=".ActivityDialogPrompt" />
+        <activity android:name=".ActivityCustomAlertDialog"></activity>
     </application>
 
 </manifest>
