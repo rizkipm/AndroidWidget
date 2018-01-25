@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ActivityDialogPrompt" />
-        <activity android:name=".ActivityCustomAlertDialog"></activity>
+        <activity android:name=".ActivityCustomAlertDialog" />
+        <activity android:name=".ActivityListView"></activity>
     </application>
 
 </manifest>

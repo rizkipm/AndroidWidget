@@ -2,6 +2,7 @@ package imastudio.id.co.androidwidget;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -39,6 +40,9 @@ public class ActivityCustomAlertDialog extends AppCompatActivity {
 
                         //ketika di pencet OK maka alert dialog nya hilang
                         dialog.dismiss();
+
+//                        Intent a1 = new Intent(getApplicationContext(), MainActivity.class);
+//                        startActivity(a1);
                     }
                 });
 
