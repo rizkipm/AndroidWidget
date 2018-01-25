@@ -18,7 +18,9 @@
         </activity>
         <activity android:name=".ActivityDialogPrompt" />
         <activity android:name=".ActivityCustomAlertDialog" />
-        <activity android:name=".ActivityListView"></activity>
+        <activity android:name=".ActivityListView" />
+        <activity android:name=".ActivityGridView" />
+        <activity android:name=".ActivitySpinner"></activity>
     </application>
 
 </manifest>
