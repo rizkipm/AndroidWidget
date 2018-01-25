@@ -15,5 +15,16 @@
             android:id="@+id/spinData"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+
+        <AnalogClock
+            android:id="@+id/analogClock1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <DigitalClock
+            android:id="@+id/digitalClock1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DigitalClock" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
