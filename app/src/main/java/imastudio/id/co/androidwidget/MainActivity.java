@@ -94,6 +94,21 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(a1);
             }
         });
+        btn8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent a1 = new Intent(getApplicationContext(), ActivityTimePicker.class);
+                startActivity(a1);
+            }
+        });
+
+        btn9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent a1 = new Intent(getApplicationContext(), ActivityAnalogDanDigital.class);
+                startActivity(a1);
+            }
+        });
 
 
     }

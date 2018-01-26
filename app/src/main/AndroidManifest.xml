@@ -21,7 +21,9 @@
         <activity android:name=".ActivityListView" />
         <activity android:name=".ActivityGridView" />
         <activity android:name=".ActivitySpinner" />
-        <activity android:name=".ActivityDatePicker"></activity>
+        <activity android:name=".ActivityDatePicker" />
+        <activity android:name=".ActivityTimePicker" />
+        <activity android:name=".ActivityAnalogDanDigital"></activity>
     </application>
 
 </manifest>
