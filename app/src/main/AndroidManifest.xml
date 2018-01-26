@@ -20,7 +20,8 @@
         <activity android:name=".ActivityCustomAlertDialog" />
         <activity android:name=".ActivityListView" />
         <activity android:name=".ActivityGridView" />
-        <activity android:name=".ActivitySpinner"></activity>
+        <activity android:name=".ActivitySpinner" />
+        <activity android:name=".ActivityDatePicker"></activity>
     </application>
 
 </manifest>

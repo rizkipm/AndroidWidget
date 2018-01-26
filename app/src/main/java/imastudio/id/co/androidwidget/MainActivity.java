@@ -86,5 +86,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(a1);
             }
         });
+
+        btn7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent a1 = new Intent(getApplicationContext(), ActivityDatePicker.class);
+                startActivity(a1);
+            }
+        });
+
+
     }
 }
